@@ -1,0 +1,50 @@
+{
+  "name": "WYPlayerSwift5",
+  "version": "0.8.8",
+  "summary": "Packaging bilibili ijkplayer swift5",
+  "description": "基于ijkplayer的播放器,可播RMTP、网络视频、本地视频等等, 支持模拟器播放，自己学习使用，请勿用于商业用途",
+  "homepage": "https://github.com/q785618493/WYPlayerSwift5",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "q785618493": "785618493@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/q785618493/WYPlayerSwift5.git",
+    "tag": "0.8.8"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": "WYPlayerSwift5/IJKMediaFramework.xcframework",
+  "source_files": "WYPlayerSwift5/Classes/**/*",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "libraries": [
+    "z",
+    "bz2",
+    "c++"
+  ],
+  "frameworks": [
+    "AVKit",
+    "Accelerate",
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreAudio",
+    "CoreVideo",
+    "CoreMedia",
+    "CoreTelephony",
+    "Foundation",
+    "MediaPlayer",
+    "OpenGLES",
+    "QuartzCore",
+    "UIKit",
+    "VideoToolbox"
+  ]
+}

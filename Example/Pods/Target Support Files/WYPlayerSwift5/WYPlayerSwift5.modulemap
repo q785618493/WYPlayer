@@ -1,0 +1,6 @@
+framework module WYPlayerSwift5 {
+  umbrella header "WYPlayerSwift5-umbrella.h"
+
+  export *
+  module * { export * }
+}

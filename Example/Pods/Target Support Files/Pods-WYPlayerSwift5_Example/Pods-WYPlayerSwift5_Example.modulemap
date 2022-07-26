@@ -1,0 +1,6 @@
+framework module Pods_WYPlayerSwift5_Example {
+  umbrella header "Pods-WYPlayerSwift5_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
