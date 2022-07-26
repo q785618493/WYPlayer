@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WYPlayerSwift5_Example' do
+  pod 'WYPlayerSwift5', :path => '../'
+
+  target 'WYPlayerSwift5_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
