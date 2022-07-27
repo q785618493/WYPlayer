@@ -20,12 +20,6 @@
   },
   "vendored_frameworks": "WYPlayerSwift5/IJKMediaFramework.xcframework",
   "source_files": "WYPlayerSwift5/Classes/**/*",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
   "libraries": [
     "z",
     "bz2",

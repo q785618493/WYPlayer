@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "WYPlayerSwift5/IJKMediaFramework.xcframework"
   s.source_files = 'WYPlayerSwift5/Classes/**/*'
   
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   # s.resource_bundles = {
   #   'WYPlayerSwift5' => ['WYPlayerSwift5/Assets/*.png']
