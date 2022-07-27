@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B1CB5396F71F52DF5F5F3BAEC744F68 /* WYPlayerSwift5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3FDE95D99ABEDA4B06EB18988ED0 /* WYPlayerSwift5-dummy.m */; };
+		1B1CB5396F71F52DF5F5F3BAEC744F68 /* WYPlayerSwift5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE886A8DD443EA03AE11A32FBD5E31F /* WYPlayerSwift5-dummy.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27F355877BB42614F81DE348BF2712E3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C145CA4F244CEDAFD15AEAE8D913C559 /* CoreVideo.framework */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
@@ -16,7 +16,7 @@
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48564F250D751A6B1CC477DE2B6E8489 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3AE99E8478C877A8B8CC2105BB2BA97B /* WYPlayerSwift5-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B243160D3C48A842976A19BC4E47C636 /* WYPlayerSwift5-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE99E8478C877A8B8CC2105BB2BA97B /* WYPlayerSwift5-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B934EE41D6F01C21F4B0CA95D8B97D /* WYPlayerSwift5-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40465C06C23458894173D86033F81824 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFCF9F48E132B487390DE2884B1FE5F /* CoreTelephony.framework */; };
 		408C961F25E991655DD471816838696E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48564F250D751A6B1CC477DE2B6E8489 /* Foundation.framework */; };
 		47DA150A16113CD41660518A105C34F6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3676A499F081E45D7D75E9A559FD456D /* Accelerate.framework */; };
@@ -43,7 +43,7 @@
 		A9E28410DF5CAA3D2CE9788D7EB9B7A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02530C31E2062BD3D6BD8858FAD34E24 /* UIKit.framework */; };
 		AA97FFF7432CA305958F75A1AF8D74E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADE5BC2233041C76F140610ADC799D8 /* AVFoundation.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		B5AD67A377A3644F5621F8D5D672EE0C /* WYPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9F0EBEC7DE55FC90C554BCE1D2BBB /* WYPlayerView.swift */; };
+		B5AD67A377A3644F5621F8D5D672EE0C /* WYPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D598FC1CA6A032097E603080BF7854 /* WYPlayerView.swift */; };
 		BF1ADB995B8B54A24EB5103C43D76B90 /* Pods-WYPlayerSwift5_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD20BB16511E58580DB8DDACEBA4A47 /* Pods-WYPlayerSwift5_Example-dummy.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13269969A414FFAE47FB92CC4C26D243 /* QuartzCore.framework */; };
@@ -54,45 +54,45 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B85E78C35D650D746AAF2F5428F5F62 /* PBXContainerItemProxy */ = {
+		3046497D724802D58103ECC8CDDF0472 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4F34A83A5D391AFE213734B5A3A4AE15;
 			remoteInfo = "Pods-WYPlayerSwift5_Example";
 		};
-		5B83A7384370253B8AA605860723D046 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		AA328F926468D9BA600D6D3AC5605DFD /* PBXContainerItemProxy */ = {
+		3919EF205E616CABE756D9F7FE1AD201 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 72D5150357CCC298B946FEB5434F8231;
 			remoteInfo = WYPlayerSwift5;
 		};
+		480874968C6A45D82F7F518FFF4E4B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F9D132EF26F1A1A32CDBAF49BFDEE9 /* WYPlayerSwift5.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYPlayerSwift5.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		02530C31E2062BD3D6BD8858FAD34E24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		02AEBBED6C688A5DF3318F4765E6B7B8 /* WYPlayerSwift5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPlayerSwift5.debug.xcconfig; sourceTree = "<group>"; };
 		0798952610DBD45B3DF869937DE97885 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		0A8A9C1DA1CE6C493E32AD6C02457D76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0B181EA8D2AF7A18BA140EAD43A426E2 /* Pods-WYPlayerSwift5_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYPlayerSwift5_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0C2AE796679E32B1F78493234FD27E57 /* Pods-WYPlayerSwift5_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYPlayerSwift5_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0EA8396024ED0CDD8E3971C21DDBED18 /* Pods-WYPlayerSwift5_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYPlayerSwift5_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0FE886A8DD443EA03AE11A32FBD5E31F /* WYPlayerSwift5-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYPlayerSwift5-dummy.m"; sourceTree = "<group>"; };
 		127F9B511599D4CE404D0A6B3945089B /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
 		13269969A414FFAE47FB92CC4C26D243 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		13DC0F31060995666C1C8C9EBF27A45D /* Pods-WYPlayerSwift5_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYPlayerSwift5_Example.release.xcconfig"; sourceTree = "<group>"; };
-		15B742AFB487C0BAF4DB54732FB65E02 /* WYPlayerSwift5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPlayerSwift5.release.xcconfig; sourceTree = "<group>"; };
+		15D598FC1CA6A032097E603080BF7854 /* WYPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYPlayerView.swift; path = WYPlayerSwift5/Classes/WYPlayerView.swift; sourceTree = "<group>"; };
 		190813462628A24BECC299FF1E390612 /* Pods-WYPlayerSwift5_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYPlayerSwift5_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		198CCEEFA699447C48C095CDBCCB0393 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1C0F9169301B99BF950F0CF2C6FBE4B3 /* WYPlayerSwift5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPlayerSwift5.debug.xcconfig; sourceTree = "<group>"; };
 		21C201969A1418A49B42C05531F2ECD2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		2591EEE8CD20548748EDDD7406136967 /* Pods-WYPlayerSwift5_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYPlayerSwift5_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -100,7 +100,6 @@
 		277FCBC9FDE27E0D095946D31A52AD3E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		3676A499F081E45D7D75E9A559FD456D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		3EEE3FDE95D99ABEDA4B06EB18988ED0 /* WYPlayerSwift5-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYPlayerSwift5-dummy.m"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		48564F250D751A6B1CC477DE2B6E8489 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,7 +111,10 @@
 		61124103351BCDBE517511687CB66A1B /* Pods-WYPlayerSwift5_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYPlayerSwift5_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		760313BC81714295957DF95EC6BF99B7 /* WYPlayerSwift5.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYPlayerSwift5.modulemap; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7ED2E5F9CDF210756EBFC6B815E82B2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		814C84B0F6A729F2BA25080550F846C7 /* WYPlayerSwift5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPlayerSwift5.release.xcconfig; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8DBC2BEE2F2D569F1213ABB40ED372E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8DFCF9F48E132B487390DE2884B1FE5F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
@@ -121,33 +123,32 @@
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		9651670A53F7BA90E212CC85CAFD07F0 /* Pods-WYPlayerSwift5_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYPlayerSwift5_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9BC9F0EBEC7DE55FC90C554BCE1D2BBB /* WYPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WYPlayerView.swift; path = WYPlayerSwift5/Classes/WYPlayerView.swift; sourceTree = "<group>"; };
+		9B1F7F947499540A45BC8177CBA3BC96 /* WYPlayerSwift5-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPlayerSwift5-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4BD7C6E5C50B7B556DC50F7D0F51A53 /* Pods-WYPlayerSwift5_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYPlayerSwift5_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7E9D66B7A40C112E7CE16EECF0C1641 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A9298B994B1FB6D096D869E86FE08550 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		AC396F3FA82C4E1BF2449116CA8BC4F3 /* Pods-WYPlayerSwift5_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYPlayerSwift5_Tests-Info.plist"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		AFB9A1D49C8B9C43697DB5DFC106A44C /* Pods-WYPlayerSwift5_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYPlayerSwift5_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B19C6183F0A8D71BAE941B703E3B24B7 /* Pods-WYPlayerSwift5_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYPlayerSwift5_Tests.modulemap"; sourceTree = "<group>"; };
-		B243160D3C48A842976A19BC4E47C636 /* WYPlayerSwift5-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPlayerSwift5-umbrella.h"; sourceTree = "<group>"; };
 		B691C9B021AFEAAA8B5F2E3ACFA3AC8C /* Pods-WYPlayerSwift5_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WYPlayerSwift5_Tests"; path = Pods_WYPlayerSwift5_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		C0AB828FFC3D6A8E88697B72CB1A1575 /* Pods-WYPlayerSwift5_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYPlayerSwift5_Example-Info.plist"; sourceTree = "<group>"; };
 		C145CA4F244CEDAFD15AEAE8D913C559 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		C1B934EE41D6F01C21F4B0CA95D8B97D /* WYPlayerSwift5-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPlayerSwift5-umbrella.h"; sourceTree = "<group>"; };
 		C1FF048C3781821CC15C12A9CC9FEAFC /* Pods-WYPlayerSwift5_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WYPlayerSwift5_Example"; path = Pods_WYPlayerSwift5_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CCF3FDF418273095A4045DEB073B73F7 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = WYPlayerSwift5/IJKMediaFramework.framework; sourceTree = "<group>"; };
 		CE6A2936AFD5373A336BEF51CAE266B2 /* Pods-WYPlayerSwift5_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYPlayerSwift5_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CE9AC70C8D7A42FDFA4BB83FA1080259 /* WYPlayerSwift5-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYPlayerSwift5-Info.plist"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DAA9BDB1B93EB83F4775C4A06C4FC469 /* WYPlayerSwift5.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYPlayerSwift5.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DEE5E242B0512211243D0A884AFBAEE3 /* WYPlayerSwift5-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPlayerSwift5-prefix.pch"; sourceTree = "<group>"; };
 		E277828A8473D1CC45FFF16FA0A08F69 /* WYPlayerSwift5 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYPlayerSwift5; path = WYPlayerSwift5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A16879A675C8E2D17728785B8C6ED0 /* Pods-WYPlayerSwift5_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYPlayerSwift5_Tests-dummy.m"; sourceTree = "<group>"; };
 		ECD20BB16511E58580DB8DDACEBA4A47 /* Pods-WYPlayerSwift5_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYPlayerSwift5_Example-dummy.m"; sourceTree = "<group>"; };
 		EDD6BB6ACBC26AF765E73F5B9A3C4D0E /* Pods-WYPlayerSwift5_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYPlayerSwift5_Example.modulemap"; sourceTree = "<group>"; };
 		EE37BF813057681091E9810E844F3D8B /* Pods-WYPlayerSwift5_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYPlayerSwift5_Example-umbrella.h"; sourceTree = "<group>"; };
-		FA19833968F3C4646CFCEF220B7B894D /* WYPlayerSwift5.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYPlayerSwift5.modulemap; sourceTree = "<group>"; };
+		EF1443A78B97E5D61974D3365BF87850 /* WYPlayerSwift5-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYPlayerSwift5-Info.plist"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,15 +229,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		487B529761F17C405AFC0C8ED1ABDD1F /* WYPlayerSwift5 */ = {
+		42E23D5A23A004FF968A1C6DBFEAEAD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9BC9F0EBEC7DE55FC90C554BCE1D2BBB /* WYPlayerView.swift */,
-				D09BA677313E5E3A2F1A5A43DF40BAF1 /* Pod */,
-				7CD32F9F6077E4110FF9ED7193E2822D /* Support Files */,
+				CCF3FDF418273095A4045DEB073B73F7 /* IJKMediaFramework.framework */,
 			);
-			name = WYPlayerSwift5;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -258,6 +256,21 @@
 				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		4F17DD40D50CDD0496AEA5CD2EDF1E0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				760313BC81714295957DF95EC6BF99B7 /* WYPlayerSwift5.modulemap */,
+				0FE886A8DD443EA03AE11A32FBD5E31F /* WYPlayerSwift5-dummy.m */,
+				EF1443A78B97E5D61974D3365BF87850 /* WYPlayerSwift5-Info.plist */,
+				9B1F7F947499540A45BC8177CBA3BC96 /* WYPlayerSwift5-prefix.pch */,
+				C1B934EE41D6F01C21F4B0CA95D8B97D /* WYPlayerSwift5-umbrella.h */,
+				1C0F9169301B99BF950F0CF2C6FBE4B3 /* WYPlayerSwift5.debug.xcconfig */,
+				814C84B0F6A729F2BA25080550F846C7 /* WYPlayerSwift5.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYPlayerSwift5";
 			sourceTree = "<group>";
 		};
 		5A3B0F12DCCCF9C0CEA2D2BA8DF2115C /* iOS */ = {
@@ -282,19 +295,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7CD32F9F6077E4110FF9ED7193E2822D /* Support Files */ = {
+		5CDA721EBFEBFD9F4CAF48232627780B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FA19833968F3C4646CFCEF220B7B894D /* WYPlayerSwift5.modulemap */,
-				3EEE3FDE95D99ABEDA4B06EB18988ED0 /* WYPlayerSwift5-dummy.m */,
-				CE9AC70C8D7A42FDFA4BB83FA1080259 /* WYPlayerSwift5-Info.plist */,
-				DEE5E242B0512211243D0A884AFBAEE3 /* WYPlayerSwift5-prefix.pch */,
-				B243160D3C48A842976A19BC4E47C636 /* WYPlayerSwift5-umbrella.h */,
-				02AEBBED6C688A5DF3318F4765E6B7B8 /* WYPlayerSwift5.debug.xcconfig */,
-				15B742AFB487C0BAF4DB54732FB65E02 /* WYPlayerSwift5.release.xcconfig */,
+				7ED2E5F9CDF210756EBFC6B815E82B2C /* LICENSE */,
+				A7E9D66B7A40C112E7CE16EECF0C1641 /* README.md */,
+				00F9D132EF26F1A1A32CDBAF49BFDEE9 /* WYPlayerSwift5.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYPlayerSwift5";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8DF5CED69DED8FBCBF8039BA959D2514 /* WYPlayerSwift5 */ = {
+			isa = PBXGroup;
+			children = (
+				15D598FC1CA6A032097E603080BF7854 /* WYPlayerView.swift */,
+				42E23D5A23A004FF968A1C6DBFEAEAD0 /* Frameworks */,
+				5CDA721EBFEBFD9F4CAF48232627780B /* Pod */,
+				4F17DD40D50CDD0496AEA5CD2EDF1E0D /* Support Files */,
+			);
+			name = WYPlayerSwift5;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -303,14 +323,6 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		AA1E94168D64F2ADD6DFE9C6B5C578D6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				487B529761F17C405AFC0C8ED1ABDD1F /* WYPlayerSwift5 */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -352,22 +364,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AA1E94168D64F2ADD6DFE9C6B5C578D6 /* Development Pods */,
+				E84C2EADF244EE9DA4E1C7332AD5F887 /* Development Pods */,
 				39B619844DE2099BB83F235E50E7C77C /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				DEE6DAA95A92F45ABF59F086ACA1BED3 /* Products */,
 				C9920310F20F01A372F0D20FA4C46638 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D09BA677313E5E3A2F1A5A43DF40BAF1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0A8A9C1DA1CE6C493E32AD6C02457D76 /* LICENSE */,
-				198CCEEFA699447C48C095CDBCCB0393 /* README.md */,
-				DAA9BDB1B93EB83F4775C4A06C4FC469 /* WYPlayerSwift5.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		DEE6DAA95A92F45ABF59F086ACA1BED3 /* Products */ = {
@@ -404,6 +406,14 @@
 				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E84C2EADF244EE9DA4E1C7332AD5F887 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DF5CED69DED8FBCBF8039BA959D2514 /* WYPlayerSwift5 */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,7 +473,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A89AAD9C5692620078FCC917ADAEC0D9 /* PBXTargetDependency */,
+				BD83FC73B76F66EB821028B8EBD361D4 /* PBXTargetDependency */,
 			);
 			name = "Pods-WYPlayerSwift5_Example";
 			productName = Pods_WYPlayerSwift5_Example;
@@ -518,8 +528,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				ED1B76581FBC5C7C8746A5584437CE5A /* PBXTargetDependency */,
-				22EB686B100628A090374B569EE6F6E1 /* PBXTargetDependency */,
+				E38DB2DD3214054DF224B7102FA5B3EC /* PBXTargetDependency */,
+				F7BDA4A1E171288240127F644ECEB951 /* PBXTargetDependency */,
 			);
 			name = "Pods-WYPlayerSwift5_Tests";
 			productName = Pods_WYPlayerSwift5_Tests;
@@ -632,23 +642,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22EB686B100628A090374B569EE6F6E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WYPlayerSwift5_Example";
-			target = 4F34A83A5D391AFE213734B5A3A4AE15 /* Pods-WYPlayerSwift5_Example */;
-			targetProxy = 1B85E78C35D650D746AAF2F5428F5F62 /* PBXContainerItemProxy */;
-		};
-		A89AAD9C5692620078FCC917ADAEC0D9 /* PBXTargetDependency */ = {
+		BD83FC73B76F66EB821028B8EBD361D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WYPlayerSwift5;
 			target = 72D5150357CCC298B946FEB5434F8231 /* WYPlayerSwift5 */;
-			targetProxy = AA328F926468D9BA600D6D3AC5605DFD /* PBXContainerItemProxy */;
+			targetProxy = 3919EF205E616CABE756D9F7FE1AD201 /* PBXContainerItemProxy */;
 		};
-		ED1B76581FBC5C7C8746A5584437CE5A /* PBXTargetDependency */ = {
+		E38DB2DD3214054DF224B7102FA5B3EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 5B83A7384370253B8AA605860723D046 /* PBXContainerItemProxy */;
+			targetProxy = 480874968C6A45D82F7F518FFF4E4B0A /* PBXContainerItemProxy */;
+		};
+		F7BDA4A1E171288240127F644ECEB951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WYPlayerSwift5_Example";
+			target = 4F34A83A5D391AFE213734B5A3A4AE15 /* Pods-WYPlayerSwift5_Example */;
+			targetProxy = 3046497D724802D58103ECC8CDDF0472 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -752,7 +762,7 @@
 		};
 		1C1C1691B7E4E7DA7D120734E005A263 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15B742AFB487C0BAF4DB54732FB65E02 /* WYPlayerSwift5.release.xcconfig */;
+			baseConfigurationReference = 814C84B0F6A729F2BA25080550F846C7 /* WYPlayerSwift5.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -784,7 +794,7 @@
 		};
 		6CF332C36E7BAE3F775EA065A7107FB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02AEBBED6C688A5DF3318F4765E6B7B8 /* WYPlayerSwift5.debug.xcconfig */;
+			baseConfigurationReference = 1C0F9169301B99BF950F0CF2C6FBE4B3 /* WYPlayerSwift5.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

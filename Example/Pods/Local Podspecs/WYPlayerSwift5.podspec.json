@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "vendored_frameworks": "WYPlayerSwift5/IJKMediaFramework.xcframework",
+  "vendored_frameworks": "WYPlayerSwift5/IJKMediaFramework.framework",
   "source_files": "WYPlayerSwift5/Classes/**/*",
   "libraries": [
     "z",
