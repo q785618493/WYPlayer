@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-#  s.vendored_frameworks = "WYPlayerSwift5/IJKMediaFramework.xcframework"
+  s.vendored_frameworks = "WYPlayerSwift5/IJKMediaFramework.xcframework"
   s.source_files = 'WYPlayerSwift5/Classes/**/*'
   
 #  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
