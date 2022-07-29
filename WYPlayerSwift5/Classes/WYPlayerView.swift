@@ -9,7 +9,7 @@ import UIKit
 
 import IJKMediaFramework
 
-class WYPlayerView: UIView {
+public class WYPlayerView: UIView {
     public var url:URL?
     var player:IJKFFMoviePlayerController?
     public override init(frame: CGRect) {
