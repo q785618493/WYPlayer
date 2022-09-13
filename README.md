@@ -7,8 +7,8 @@
 
 ## Example
 
-IJKMediaFramework.xcframework 支持模拟器iPhone12  和 真机
-基于ijkPlayer，开发视频播放器 支持rtmp 和 网络视频，本地视频
+IJKMediaFramework.xcframework支持 模拟器 和 真机，
+基于ijkPlayer，开发视频播放器支持m3u8、rtmp、网络视频 和 本地视频
 
 ## Requirements
 
